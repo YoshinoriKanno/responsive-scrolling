@@ -1,0 +1,70 @@
+html {
+  scroll-behavior: smooth;
+
+}
+
+body {
+  margin: 0;
+  position: relative;
+
+}
+
+section {
+  height: 1000px;
+
+}
+
+.bgArea {
+  position: fixed;
+  // width: 500px;
+  height: 100vh;
+  left: 0;
+  right: 0;
+  margin: auto;
+  overflow: hidden;
+  background: url(../img/bg-base.jpg) no-repeat center center;
+  background-size: cover;
+  transform: scale(1);
+  background-image: url(https://fastly.picsum.photos/id/127/4032/2272.jpg?hmac=QFoFT2_eb_DCqjdlj09UFgUHwI_zefDTBdECRz9lO5Q);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+
+}
+
+nav {
+  width: 100%;
+  left: 0;
+  top: 0;
+  position: fixed;
+  z-index: 1;
+  background-color: white;
+
+  @media screen and (min-width: 768px) {
+    top: 32px;
+    left: 32px;
+    padding: 32px;
+    width: auto;
+  }
+
+
+
+  a {
+    display: block;
+    margin-bottom: 32px;
+  }
+}
+
+.content {
+  width: 100%;
+  left: 0;
+
+  @media screen and (min-width: 768px) {
+    width: 375px;
+    position: absolute;
+    left: 50%;
+  }
+
+
+
+}
